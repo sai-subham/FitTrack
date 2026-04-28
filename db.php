@@ -6,8 +6,9 @@ $host = getenv('DB_HOST') ?: "sql201.infinityfree.com";
 $user = getenv('DB_USER') ?: "if0_41733956";
 $pass = getenv('DB_PASS') ?: "7LQsxJ5fbFwzy1T";
 $db   = getenv('DB_NAME') ?: "if0_41733956_fitness_tracker";
+$port = getenv('DB_PORT') ?: 3306;
 
-$conn = mysqli_connect($host, $user, $pass, $db);
+$conn = mysqli_connect($host, $user, $pass, $db, $port);
 
 if (!$conn) {
     die("Connection failed: " . mysqli_connect_error());
