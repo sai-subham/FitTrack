@@ -2,6 +2,9 @@
 
 A fitness tracking web application built with PHP and MySQL.
 
+## Live Demo
+**Production URL:** [http://fittrack-app.great-site.net](http://fittrack-app.great-site.net)
+
 ## Features
 - **User Registration & Login** — Secure authentication with hashed passwords
 - **Dashboard** — BMI, BMR, daily step goal progress ring, smart insights, weekly chart
